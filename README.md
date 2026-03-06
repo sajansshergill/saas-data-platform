@@ -29,6 +29,38 @@ Analytics Warehouse
 BI Layer
 (Metabase Dashboards)
 
+## System Architecture
+
+```text
+Synthetic SaaS Data Sources
+(customers, subscriptions, payments, usage events)
+        │
+        ▼
+Python Data Generation Layer
+        │
+        ▼
+PostgreSQL Operational Store
+        │
+        ▼
+Warehouse Build + SQL Models
+        │
+        ▼
+dbt Staging Models
+        │
+        ▼
+dbt Marts / KPI Tables
+(MRR, ARPU, LTV, Churn, Customer Health)
+        │
+        ▼
+Data Quality Checks
+        │
+        ▼
+Airflow Orchestration
+        │
+        ▼
+BI Dashboards / Self-Serve Analytics
+```
+
 ## Project Goals
 The goal of this project is to simulate the responsibilities of the first data Engineer at a startup, including:
 - Building the foundational **data warehouse**
@@ -245,6 +277,16 @@ Using the analytics models, leadership teams can answer questions such as:
 - Which accounts show early churn risk signals?
 - How is monthly recurring revenue trending?
 
+## Example Business Questions Answered
+
+This platform enables teams to answer questions such as:
+
+- How is monthly recurring revenue trending over time?
+- Which subscription plans drive the most revenue?
+- Which customers have the highest lifetime value?
+- Which accounts are showing early churn-risk behavior?
+- How does product engagement relate to payment reliability?
+
 ## Dashboard Preview
 
 ### Executive Revenue Dashboard
@@ -261,3 +303,19 @@ Tracks usage intensity, payment reliability, and customer health score.
 Airflow DAG for synthetic generation, ingestion, warehouse builds, and validation.
 
 ![Airflow DAG](docs/images/airflow_dag.png)
+
+## Engineering Decisions
+
+- Used PostgreSQL as the operational system to simulate startup production data.
+- Used layered modeling (source → staging → marts) to separate raw ingestion from business logic.
+- Used dbt tests and custom Python validation to improve trust in KPI outputs.
+- Used Airflow to orchestrate repeatable batch workflows and mimic production scheduling.
+- Designed the project around SaaS revenue and customer health metrics to align with real B2B business reporting needs.
+
+## Future Roadmap
+
+- Add streaming ingestion for near-real-time usage analytics
+- Add Great Expectations or Soda for richer data quality monitoring
+- Add customer churn prediction model on top of warehouse marts
+- Add semantic BI layer for metric governance
+- Deploy warehouse and orchestration stack to cloud infrastructure
