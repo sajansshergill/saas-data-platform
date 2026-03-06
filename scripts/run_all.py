@@ -7,7 +7,7 @@ commands = [
     ["python", "data_generation/generate_usage_events.py"],
     ["python", "pipelines/ingest_csv_to_postgres.py"],
     ["python", "pipelines/postgres_to_warehouse.py"],
-
+    ["python", "pipelines/data_quality_checks.py"],
 ]
 
 for cmd in commands:

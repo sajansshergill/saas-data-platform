@@ -45,5 +45,10 @@ with DAG(
         bash_command="python pipelines/postgres_to_warehouse.py"
     )
 
+    data_quality_checks = BashOperator(
+        task_id="data_quality_checks",
+        bash_command="python pipelines/data_quality_checks.py"
+    )
+
     generate_customers >> generate_subscriptions >> generate_payments
-    [generate_payments, generate_usage_events] >> ingest_to_postgres >> build_warehouse
+    [generate_payments, generate_usage_events] >> ingest_to_postgres >> build_warehouse >> data_quality_checks
