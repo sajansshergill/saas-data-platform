@@ -1,0 +1,263 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e5e7eb;
+  background-color: #050816;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at top, #1e293b, #020617 60%);
+  color: #e5e7eb;
+}
+
+.app-header {
+  border-bottom: 1px solid #1f2937;
+  padding: 0.75rem 1.5rem;
+  background: rgba(5, 8, 22, 0.95);
+}
+
+.app-header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.app-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.app-subtitle {
+  font-size: 0.7rem;
+  color: #9ca3af;
+}
+
+.status-pill {
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.7rem;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  background: rgba(75, 85, 99, 0.4);
+}
+
+.status-running {
+  border-color: rgba(34, 211, 238, 0.7);
+  background: rgba(8, 145, 178, 0.2);
+  color: #a5f3fc;
+}
+
+.status-succeeded {
+  border-color: rgba(52, 211, 153, 0.7);
+  background: rgba(22, 163, 74, 0.2);
+  color: #bbf7d0;
+}
+
+.status-failed {
+  border-color: rgba(248, 113, 113, 0.7);
+  background: rgba(185, 28, 28, 0.2);
+  color: #fecaca;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 1.75rem;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid #1f2937;
+  background: rgba(15, 23, 42, 0.9);
+  padding: 1.25rem 1.5rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  color: #d1d5db;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.05s ease, box-shadow 0.15s ease, opacity 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #4f46e5;
+  color: white;
+  box-shadow: 0 8px 16px rgba(79, 70, 229, 0.35);
+}
+
+.btn-primary:hover {
+  background-color: #6366f1;
+  transform: translateY(-1px);
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background-color: #020617;
+  color: #e5e7eb;
+  border: 1px solid #4b5563;
+}
+
+.btn-secondary:hover {
+  background-color: #111827;
+}
+
+.logs-container {
+  margin-top: 1.25rem;
+  border-radius: 0.9rem;
+  border: 1px solid #1f2937;
+  overflow: hidden;
+  background-color: #020617;
+}
+
+.logs-header {
+  padding: 0.4rem 0.9rem;
+  border-bottom: 1px solid #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #d1d5db;
+}
+
+.logs-body {
+  max-height: 19rem;
+  padding: 0.75rem 0.9rem;
+  overflow: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: #e5e7eb;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .metrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.metric-card-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #9ca3af;
+}
+
+.metric-card-value {
+  margin-top: 0.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.metric-card-value span.placeholder {
+  color: #6b7280;
+}
+
+.helper-text {
+  font-size: 0.7rem;
+  color: #9ca3af;
+  margin-top: 0.8rem;
+}
+
+.mrr-table-wrapper {
+  max-height: 210px;
+  overflow: auto;
+  border-radius: 0.6rem;
+  border: 1px solid #1f2937;
+  background-color: rgba(15, 23, 42, 0.9);
+}
+
+.mrr-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.75rem;
+}
+
+.mrr-table thead {
+  background-color: #020617;
+  position: sticky;
+  top: 0;
+}
+
+.mrr-table th,
+.mrr-table td {
+  padding: 0.45rem 0.7rem;
+  border-bottom: 1px solid #111827;
+}
+
+.mrr-table th {
+  text-align: left;
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+.mrr-table td {
+  color: #e5e7eb;
+}
+
+.mrr-table tr:nth-child(even) td {
+  background-color: rgba(15, 23, 42, 0.9);
+}
+
+.mrr-right {
+  text-align: right;
+}
+
+.mrr-empty {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #9ca3af;
+}

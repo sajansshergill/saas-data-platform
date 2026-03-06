@@ -5,6 +5,9 @@ The platform ingests operational data from application databases, payment system
 
 This project demonstrates how a startup can build a **scalable analytics stack from scratch** to support leadership KPIs, data analysts, and BI dashboards.
 
+> **Live demo** (replace this with your actual URL after deploying):  
+> [SaaS Data Platform – Live](http://YOUR_VM_IP:3000)
+
 ## Architecture Overview
 Operational Systems
 (Postgres / Stripe / Usage Events)
@@ -319,3 +322,49 @@ Airflow DAG for synthetic generation, ingestion, warehouse builds, and validatio
 - Add customer churn prediction model on top of warehouse marts
 - Add semantic BI layer for metric governance
 - Deploy warehouse and orchestration stack to cloud infrastructure
+
+## Web UI (Frontend)
+
+This repo includes a small web UI + API:
+
+- **Frontend**: React UI at `http://localhost:3000`
+- **API**: FastAPI at `http://localhost:8000` (run pipeline, stream logs)
+
+Start everything:
+
+```bash
+docker compose up -d --build
+```
+
+## Deployment (cloud / always-on)
+
+To run this as a live app that stays up even when your laptop is closed:
+
+1. **Provision a small VM** (DigitalOcean droplet, AWS Lightsail, etc.) and install Docker + the compose plugin.
+2. **Clone the repo on the VM**:
+
+```bash
+git clone https://github.com/username/saas-data-platform.git
+cd saas-data-platform
+cp .env.example .env
+```
+
+3. **Build and start all services**:
+
+```bash
+docker compose up -d --build
+```
+
+This starts:
+
+- `postgres` – operational + warehouse database (persistent volume `postgres_data`)
+- `api` – FastAPI service on port `8000` that runs the pipeline and exposes KPIs
+- `frontend` – static React app served by Nginx on port `3000`
+
+4. **Open the app**:
+
+```text
+http://YOUR_VM_IP:3000
+```
+
+The containers are created with `restart: unless-stopped`, so the app comes back automatically on VM reboot and keeps running for anyone who has the link.
