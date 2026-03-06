@@ -1,13 +1,5 @@
 version: 2
 
-sources:
-  - name: public
-    tables:
-      - name: customers
-      - name: subscriptions
-      - name: payments
-      - name: usage_events
-
 models:
   - name: stg_customers
     columns:

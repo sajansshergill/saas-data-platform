@@ -11,9 +11,10 @@ payments_summary as (
     select
         customer_id,
         sum(case when payment_status = 'paid' then 1 else 0 end) as successful_payments,
-        sum(case when payment_status = 'failed' then 1 else 0 end) as failed_payments
+        sum(case when payment_status = 'failed' then 1 else 0 end) as failed_payments,
         sum(amount) as total_revenue
     from {{ ref('fact_revenue') }}
+    group by customer_id
 )
 select
     c.customer_id,
@@ -23,14 +24,14 @@ select
     coalesce(u.feature_uses, 0) as feature_uses,
     coalesce(p.successful_payments, 0) as successful_payments,
     coalesce(p.failed_payments, 0) as failed_payments,
-    coalesce(p.total_revenue, 0) as toal_revenue,
+    coalesce(p.total_revenue, 0) as total_revenue,
     (
         coalesce(u.total_events, 0) * 0.3 +
         coalesce(u.feature_uses, 0) * 0.3 +
         coalesce(p.successful_payments, 0) * 20 -
         coalesce(p.failed_payments, 0) * 10 
     ) as health_score
-from {{ ref('dim_cutsomers') }} c
+from {{ ref('dim_customers') }} c
 left join usage_summary u
     on c.customer_id = u.customer_id
 left join payments_summary p

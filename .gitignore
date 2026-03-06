@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.user.yml
+.dbt/
+data/
+!data/.gitkeep
+.python-version
+.venv/
+venv/
+target/
+dbt_packages/
+*.log
+.DS_Store

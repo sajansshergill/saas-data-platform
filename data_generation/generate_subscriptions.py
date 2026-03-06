@@ -28,6 +28,7 @@ for subscription in range(1, 501):
         "monthly_amount": plans[plan_name],
         "start_date": start_date.date(),
         "cancel_date": cancel_date.date() if cancel_date else None,
+        "status": status,
     })
     
 df = pd.DataFrame(records)
