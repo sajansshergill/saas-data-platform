@@ -1,0 +1,501 @@
+customer_id,company_name,industry,signup_date,country,employee_count,status
+1,Kramer-Manning,EdTech,2025-04-25,Puerto Rico,500,active
+2,Garcia-Adams,EdTech,2025-08-18,Ukraine,20,inactive
+3,Schaefer-Taylor,E-commerce,2025-12-06,Saudi Arabia,500,active
+4,Suarez-Walker,Fintech,2024-05-22,United States Virgin Islands,20,active
+5,Gonzalez Group,E-commerce,2025-06-19,Tokelau,250,active
+6,"Tran, Hayes and Hernandez",Healthtech,2024-07-21,French Guiana,100,inactive
+7,Lang LLC,SaaS,2024-06-26,Togo,20,active
+8,Anderson-Mccarty,SaaS,2025-08-07,India,100,active
+9,"Adams, Flores and Mccarthy",E-commerce,2024-06-28,Bolivia,5,active
+10,Mason-Cox,SaaS,2025-11-23,Benin,100,active
+11,White Group,Healthtech,2025-08-19,Guadeloupe,500,active
+12,Dixon-Wyatt,E-commerce,2025-06-09,El Salvador,250,inactive
+13,Gonzalez-Barton,Healthtech,2024-04-17,Christmas Island,20,active
+14,Gregory-Wilson,Fintech,2024-07-23,Greenland,500,active
+15,Guzman-Reed,EdTech,2024-09-17,Cook Islands,20,inactive
+16,James-Carter,EdTech,2025-03-29,Australia,250,active
+17,Oneal PLC,SaaS,2025-04-11,Netherlands,500,active
+18,Taylor Group,SaaS,2024-09-15,Slovakia (Slovak Republic),20,active
+19,"Collins, Fisher and Martin",E-commerce,2025-12-01,United States Virgin Islands,250,active
+20,"Barnett, Haynes and Robertson",EdTech,2026-02-08,Italy,20,active
+21,Moses-Martinez,Healthtech,2024-12-27,Marshall Islands,250,active
+22,"Hutchinson, Quinn and Richardson",EdTech,2024-09-11,Myanmar,50,active
+23,"Vazquez, Griffin and James",SaaS,2024-09-26,Israel,10,inactive
+24,"Haas, Walls and Scott",EdTech,2025-06-13,Montenegro,50,active
+25,"Reyes, Ho and Payne",Healthtech,2025-12-09,Chile,10,active
+26,Salazar Group,SaaS,2024-03-05,Ecuador,100,active
+27,Patel LLC,EdTech,2025-06-17,Luxembourg,250,active
+28,Smith-Ramirez,Fintech,2024-08-21,Mali,20,active
+29,"Gaines, Serrano and Garcia",Fintech,2025-04-08,Swaziland,100,active
+30,Carter LLC,SaaS,2025-12-14,Mongolia,20,active
+31,Hayes Group,E-commerce,2024-07-08,France,5,active
+32,"Gross, Li and Castillo",E-commerce,2025-04-26,United Kingdom,5,active
+33,"Hernandez, Miller and Smith",EdTech,2026-01-18,Colombia,5,active
+34,Smith Ltd,Fintech,2025-02-27,Albania,50,active
+35,"Martinez, Perez and Chen",EdTech,2025-12-09,Saint Martin,100,active
+36,Pena LLC,SaaS,2024-10-20,Trinidad and Tobago,10,inactive
+37,Jackson PLC,SaaS,2025-12-29,Saudi Arabia,100,active
+38,Donovan Ltd,Healthtech,2025-06-22,Norway,500,active
+39,"Craig, Garcia and Cruz",Healthtech,2024-12-18,Moldova,20,active
+40,Briggs-Chambers,EdTech,2025-05-18,Turkmenistan,100,active
+41,Juarez-Lucero,EdTech,2026-01-03,Haiti,500,inactive
+42,"Abbott, Garner and Davila",EdTech,2025-05-25,Germany,500,active
+43,Harris Group,SaaS,2025-04-26,Uzbekistan,20,active
+44,Lopez-Green,Fintech,2024-12-21,British Virgin Islands,50,active
+45,Freeman and Sons,SaaS,2024-12-03,Sao Tome and Principe,10,active
+46,Walker PLC,Fintech,2025-05-13,Trinidad and Tobago,500,inactive
+47,"Riggs, Green and Yates",Fintech,2024-11-14,Guam,20,active
+48,Saunders PLC,Fintech,2025-06-08,Madagascar,10,active
+49,Hamilton-Benjamin,Healthtech,2025-09-25,Senegal,100,active
+50,Berg-Hancock,EdTech,2024-07-13,Botswana,10,active
+51,"Carney, Scott and Richardson",E-commerce,2024-06-29,Myanmar,20,inactive
+52,"Rodriguez, Rogers and Mcdaniel",Healthtech,2024-06-23,French Guiana,5,active
+53,"Jones, Martin and Duncan",EdTech,2024-06-15,Moldova,10,active
+54,"Johnson, Smith and Terrell",E-commerce,2026-02-14,France,50,inactive
+55,"Gonzalez, Kirk and Scott",SaaS,2024-09-17,Austria,100,inactive
+56,"Moore, Bush and King",Fintech,2025-06-16,Guatemala,100,inactive
+57,Mckinney-Bowers,Fintech,2024-07-11,Hungary,100,active
+58,"Mcguire, Green and Jones",Healthtech,2024-06-26,United Kingdom,5,inactive
+59,Patterson-Melendez,E-commerce,2025-11-10,Panama,50,active
+60,Cunningham-Cortez,EdTech,2025-04-01,Ireland,10,inactive
+61,"Haynes, Thomas and Yang",E-commerce,2024-11-21,Spain,20,active
+62,Nguyen PLC,E-commerce,2024-05-24,South Georgia and the South Sandwich Islands,5,active
+63,Willis-Miller,SaaS,2025-01-16,Poland,10,active
+64,Evans LLC,SaaS,2024-07-18,Algeria,5,inactive
+65,"Valentine, Chang and Brown",E-commerce,2026-02-23,Ecuador,5,active
+66,Wilson Inc,EdTech,2025-12-06,Cocos (Keeling) Islands,100,inactive
+67,"Nelson, Smith and Campbell",E-commerce,2024-04-29,Syrian Arab Republic,20,inactive
+68,Cabrera Ltd,Healthtech,2024-06-16,Vietnam,500,inactive
+69,Frost-Weber,Healthtech,2024-10-30,Antarctica (the territory South of 60 deg S),100,active
+70,Rhodes Ltd,SaaS,2026-01-18,Cameroon,50,inactive
+71,Carter LLC,E-commerce,2025-07-27,Afghanistan,100,active
+72,Martinez Inc,E-commerce,2024-10-20,Falkland Islands (Malvinas),5,active
+73,Weiss Inc,Healthtech,2025-06-18,Mali,50,active
+74,"Burns, Snyder and Davis",SaaS,2026-02-26,Iran,100,active
+75,Wheeler-Murphy,Fintech,2026-02-13,Libyan Arab Jamahiriya,5,active
+76,Barr and Sons,Healthtech,2025-12-13,Dominican Republic,20,inactive
+77,"Jenkins, Myers and Hansen",EdTech,2026-02-25,Guatemala,100,inactive
+78,"Rosales, Davis and Burch",EdTech,2024-04-26,Lesotho,20,active
+79,Burke Inc,Healthtech,2024-06-21,Argentina,10,active
+80,Chambers Inc,Healthtech,2025-02-13,Angola,100,inactive
+81,Brown-Kelley,SaaS,2024-03-17,Kiribati,500,active
+82,"Mora, Bailey and Thompson",Fintech,2025-08-19,Bolivia,100,active
+83,Owens Ltd,Healthtech,2024-11-10,Tonga,5,active
+84,Payne-King,EdTech,2026-02-07,Solomon Islands,100,active
+85,Castro PLC,Healthtech,2025-01-25,Jordan,10,active
+86,Anderson LLC,Fintech,2025-11-09,Mauritius,50,active
+87,"Fleming, Carrillo and Zamora",SaaS,2024-08-08,Algeria,250,inactive
+88,"Hanson, Anderson and Wright",Healthtech,2025-11-21,Philippines,5,active
+89,"Gross, Thompson and Tucker",E-commerce,2025-05-08,Saint Martin,100,inactive
+90,Cardenas-Barnes,E-commerce,2026-02-20,Maldives,20,active
+91,Baker Inc,E-commerce,2025-10-29,Colombia,50,active
+92,"Lee, Rivera and Smith",SaaS,2024-05-24,Malawi,100,active
+93,"Phillips, Hood and Buckley",SaaS,2025-01-02,United States Minor Outlying Islands,50,active
+94,"Larsen, Nelson and Wyatt",Fintech,2025-03-16,Iran,50,active
+95,Brown-Long,Healthtech,2024-10-30,Turkey,5,inactive
+96,Williams-Smith,Healthtech,2024-07-23,Palestinian Territory,100,active
+97,"Rodriguez, Mclaughlin and Meyers",SaaS,2024-09-16,Senegal,100,active
+98,Andrews LLC,SaaS,2024-12-27,Venezuela,50,inactive
+99,"Harrison, Smith and Bradley",SaaS,2024-03-24,Croatia,500,active
+100,Williams Ltd,EdTech,2024-05-23,Jamaica,20,active
+101,"Mosley, Woods and Richard",Healthtech,2025-01-01,Burundi,250,active
+102,Morton-Nicholson,EdTech,2025-06-15,Cameroon,250,active
+103,Ray Inc,Healthtech,2024-11-06,Angola,250,active
+104,"Woods, Sosa and Burke",E-commerce,2024-12-10,San Marino,5,inactive
+105,Martin Inc,E-commerce,2024-05-27,Germany,5,inactive
+106,Ortiz-Lawson,E-commerce,2025-06-10,Bolivia,50,inactive
+107,"Smith, Gomez and Young",Fintech,2025-01-07,Nepal,5,active
+108,Nelson Inc,SaaS,2025-06-25,Estonia,10,active
+109,Harvey-Brown,Healthtech,2025-06-13,Libyan Arab Jamahiriya,5,active
+110,Romero Group,SaaS,2025-12-02,Papua New Guinea,10,inactive
+111,Irwin Group,Fintech,2024-05-20,Armenia,250,inactive
+112,"Wilson, Nunez and Jones",Healthtech,2025-09-01,Iran,100,active
+113,"Wilkins, Smith and Rogers",Healthtech,2024-08-29,Zambia,100,active
+114,Evans PLC,E-commerce,2025-12-06,Cook Islands,50,inactive
+115,Watson Ltd,Fintech,2025-05-13,El Salvador,5,inactive
+116,Heath-Clark,E-commerce,2024-11-15,Tunisia,5,active
+117,Hawkins Inc,Fintech,2024-05-13,Bosnia and Herzegovina,100,active
+118,Tucker LLC,Healthtech,2024-09-08,Estonia,20,active
+119,Arias-Mcdaniel,SaaS,2025-03-22,Dominica,250,active
+120,Thomas-Moore,Fintech,2025-12-27,Pitcairn Islands,500,active
+121,Fowler-Velasquez,Healthtech,2025-01-04,Uruguay,500,active
+122,Martinez-Collier,E-commerce,2026-02-08,Bouvet Island (Bouvetoya),50,active
+123,Crawford-Owen,Healthtech,2024-12-16,Haiti,20,inactive
+124,Riley and Sons,E-commerce,2024-11-12,Mongolia,5,active
+125,Salinas Group,Fintech,2025-10-21,Mayotte,5,active
+126,Brown-Macdonald,SaaS,2025-08-06,Israel,500,active
+127,"Morgan, Lewis and Graham",Healthtech,2024-11-24,Gibraltar,5,active
+128,Fernandez-Martinez,SaaS,2025-12-31,Greece,5,active
+129,Spencer-Morgan,SaaS,2024-03-28,Djibouti,50,inactive
+130,Barker-Young,SaaS,2025-06-27,Nigeria,500,active
+131,Chapman-Johnson,SaaS,2025-07-02,Colombia,20,active
+132,Rose LLC,Healthtech,2025-03-06,Guyana,100,active
+133,Page-Williamson,Fintech,2025-12-12,Bhutan,100,inactive
+134,Mcdowell Group,Healthtech,2024-10-10,Eritrea,50,inactive
+135,Snyder and Sons,Healthtech,2025-06-16,Kyrgyz Republic,10,active
+136,Reyes-Malone,Fintech,2025-05-06,Comoros,5,active
+137,"Nunez, Patterson and Boyer",Healthtech,2025-07-30,Zimbabwe,10,inactive
+138,Gray-Cruz,EdTech,2026-02-01,Syrian Arab Republic,500,active
+139,Orozco Inc,Fintech,2024-06-09,British Virgin Islands,50,active
+140,Pham-Martin,Healthtech,2025-01-28,Panama,20,inactive
+141,Johnson-Smith,E-commerce,2024-10-10,Nicaragua,100,active
+142,"Miller, Hudson and Roach",EdTech,2025-10-21,Liechtenstein,20,active
+143,Donaldson-Reyes,SaaS,2025-08-21,Mexico,20,active
+144,Brooks-Newton,Healthtech,2024-12-07,Nigeria,250,inactive
+145,Cummings PLC,Fintech,2025-12-19,Cote d'Ivoire,500,inactive
+146,"Gonzalez, Brown and Sparks",Fintech,2024-07-09,Mexico,20,active
+147,Buchanan Inc,E-commerce,2024-09-24,Niger,20,active
+148,Kelly-Schmidt,EdTech,2024-08-09,Western Sahara,5,active
+149,"Herring, Webb and Scott",Healthtech,2025-10-28,Iraq,50,active
+150,"Sanders, Armstrong and Nelson",EdTech,2025-08-23,Tajikistan,100,active
+151,Barnes-Fleming,Healthtech,2024-09-28,Turkmenistan,10,active
+152,Lewis-Mitchell,E-commerce,2024-12-02,Italy,100,inactive
+153,Guzman-Weaver,SaaS,2025-05-25,Netherlands,500,inactive
+154,Rodriguez-Dawson,E-commerce,2025-05-13,Saint Martin,500,active
+155,Smith Ltd,Healthtech,2025-05-13,Denmark,5,active
+156,Strong Ltd,E-commerce,2024-03-06,Tajikistan,500,active
+157,Bartlett-Phillips,Fintech,2025-11-26,French Southern Territories,250,active
+158,Chavez Ltd,EdTech,2025-06-28,Bosnia and Herzegovina,250,active
+159,"Mitchell, Davis and Owens",E-commerce,2026-02-11,Heard Island and McDonald Islands,250,inactive
+160,Perez Ltd,Healthtech,2025-04-23,Jersey,100,active
+161,Mcguire-Archer,EdTech,2024-09-01,Paraguay,20,active
+162,Murphy LLC,E-commerce,2026-02-21,Guinea-Bissau,250,active
+163,Edwards and Sons,Fintech,2024-06-27,Venezuela,10,active
+164,"Cooper, Evans and Mendoza",SaaS,2024-09-14,Panama,5,active
+165,Miller and Sons,E-commerce,2024-10-28,Nigeria,10,active
+166,Scott-Cook,Healthtech,2024-05-22,Palau,10,inactive
+167,King and Sons,Healthtech,2025-10-31,Saint Helena,50,active
+168,Wallace-Weber,Healthtech,2025-02-02,Kuwait,5,active
+169,Bartlett Ltd,Fintech,2025-11-04,Belarus,50,active
+170,"Mills, Huynh and Adams",E-commerce,2026-01-30,Tonga,5,active
+171,Woods Inc,EdTech,2025-03-30,Slovakia (Slovak Republic),10,inactive
+172,Koch-Porter,E-commerce,2025-06-24,Kyrgyz Republic,5,active
+173,Hoffman-Caldwell,E-commerce,2024-07-25,North Macedonia,250,active
+174,Smith Ltd,EdTech,2025-09-11,Saint Martin,50,active
+175,"Ware, Perry and Smith",Healthtech,2024-05-28,Mauritania,10,inactive
+176,Morgan LLC,EdTech,2024-12-06,Christmas Island,20,active
+177,Mclean LLC,Healthtech,2025-08-15,Chile,10,inactive
+178,Sanchez-Evans,E-commerce,2024-05-22,Georgia,20,active
+179,Macias-Moore,SaaS,2025-12-09,Samoa,50,active
+180,"Thompson, Lopez and Gonzalez",E-commerce,2024-08-30,Antarctica (the territory South of 60 deg S),100,active
+181,"Johnson, Shelton and Morales",E-commerce,2024-09-05,Heard Island and McDonald Islands,50,active
+182,Gregory-Wilson,EdTech,2025-04-27,Gabon,500,active
+183,Steele-Johnson,Fintech,2024-03-08,Thailand,5,active
+184,Wright LLC,SaaS,2024-03-20,Bouvet Island (Bouvetoya),50,active
+185,"Williams, Thomas and Rice",Fintech,2025-05-17,San Marino,500,active
+186,Erickson Ltd,Healthtech,2025-07-21,Myanmar,5,active
+187,"Trujillo, Grant and Bradley",Fintech,2025-08-11,Costa Rica,20,inactive
+188,Mclaughlin Ltd,E-commerce,2025-11-21,Samoa,10,active
+189,Powell-Williams,Healthtech,2024-08-22,Slovenia,20,inactive
+190,Graham-Butler,SaaS,2024-11-30,Mexico,5,active
+191,Williams LLC,EdTech,2024-07-30,Lithuania,10,inactive
+192,Gilbert LLC,E-commerce,2025-11-17,Falkland Islands (Malvinas),500,inactive
+193,Brown-Green,EdTech,2025-12-11,Grenada,100,inactive
+194,Anderson-Hammond,EdTech,2024-10-11,Netherlands,5,active
+195,"Martinez, Hayes and Wells",Fintech,2025-05-28,Singapore,20,inactive
+196,Torres-Newman,EdTech,2025-04-09,Kuwait,250,inactive
+197,Hall Group,Healthtech,2024-04-21,Tuvalu,500,active
+198,Washington-White,SaaS,2024-09-14,Burkina Faso,100,active
+199,Lawrence-Hardy,Healthtech,2025-05-31,Jersey,100,active
+200,Escobar LLC,E-commerce,2024-11-17,Mayotte,20,active
+201,Kirk-Reynolds,EdTech,2024-11-08,Palau,100,active
+202,Johnson-Austin,SaaS,2025-10-25,Azerbaijan,250,active
+203,"Reyes, Smith and Daniel",SaaS,2025-09-29,Iceland,250,active
+204,"Myers, Cross and Davis",Fintech,2025-03-20,Holy See (Vatican City State),50,active
+205,Church LLC,SaaS,2025-06-23,Yemen,20,inactive
+206,Madden-Roberts,SaaS,2026-01-28,Zambia,250,active
+207,"Howell, Torres and White",EdTech,2025-12-06,Uganda,50,inactive
+208,Smith Group,Fintech,2025-04-03,Western Sahara,10,active
+209,Douglas-Lawson,Fintech,2026-01-03,Norfolk Island,20,active
+210,Garcia Group,Healthtech,2025-01-28,Costa Rica,5,active
+211,Jordan-Anderson,SaaS,2024-05-08,Panama,5,active
+212,Vega Ltd,SaaS,2026-01-07,Bermuda,500,active
+213,"Short, Evans and Hodge",E-commerce,2026-02-17,Austria,20,active
+214,Bush Inc,Healthtech,2024-04-03,Algeria,100,active
+215,"Huerta, Richardson and Briggs",E-commerce,2025-03-03,Maldives,10,active
+216,"Ward, Moore and Burns",E-commerce,2025-11-26,Qatar,100,active
+217,"Rojas, Burnett and Gomez",EdTech,2025-03-10,Brazil,250,active
+218,Anderson PLC,E-commerce,2026-02-14,Antigua and Barbuda,20,active
+219,Vega-Williams,SaaS,2024-11-05,Anguilla,20,active
+220,Rodriguez Inc,SaaS,2024-12-26,Haiti,100,active
+221,Jones-Dennis,Healthtech,2024-05-23,Syrian Arab Republic,500,active
+222,"Jenkins, Johnson and Ferguson",E-commerce,2024-07-27,Uganda,250,active
+223,Smith Group,Fintech,2024-05-27,Burkina Faso,50,active
+224,Mooney-Green,EdTech,2024-12-27,France,500,active
+225,Flores-Campbell,EdTech,2025-02-08,United States Virgin Islands,50,inactive
+226,"Gardner, Day and Aguilar",Healthtech,2025-06-11,Czech Republic,100,active
+227,"Ray, Myers and Ward",EdTech,2024-03-24,Lesotho,250,active
+228,Rich Inc,Healthtech,2026-01-21,Spain,10,active
+229,"Copeland, Williams and Lane",E-commerce,2024-09-15,Lebanon,250,inactive
+230,"Howard, Daugherty and Fuller",Fintech,2025-01-06,Falkland Islands (Malvinas),5,inactive
+231,"Nguyen, Lutz and Clark",Fintech,2025-04-14,United States of America,50,inactive
+232,Stanley Group,SaaS,2024-05-28,Somalia,500,active
+233,Dixon Group,E-commerce,2025-04-27,Dominican Republic,5,inactive
+234,Rivera and Sons,Healthtech,2024-03-10,Bolivia,500,active
+235,Hayes-Griffith,EdTech,2024-12-29,Iceland,250,inactive
+236,Davis PLC,E-commerce,2024-03-16,Puerto Rico,250,active
+237,"Jensen, Patton and Willis",Fintech,2024-11-09,Central African Republic,5,active
+238,Carroll Ltd,Healthtech,2025-09-03,South Georgia and the South Sandwich Islands,50,active
+239,"Carpenter, Orozco and Grimes",E-commerce,2024-07-25,Cayman Islands,50,active
+240,"Soto, Richardson and Brooks",Fintech,2025-03-21,Belgium,250,active
+241,Kelley LLC,Healthtech,2025-07-07,Norway,10,inactive
+242,Cross-Charles,SaaS,2026-01-31,Bahamas,50,inactive
+243,"Hernandez, Haney and Cook",E-commerce,2024-08-23,Israel,5,active
+244,Wall Ltd,SaaS,2025-03-13,Saint Pierre and Miquelon,5,active
+245,Mcintosh Inc,Healthtech,2025-09-01,Marshall Islands,100,inactive
+246,Hansen-Gomez,E-commerce,2024-04-12,Kyrgyz Republic,50,inactive
+247,Welch-Hernandez,E-commerce,2024-09-03,Pitcairn Islands,20,active
+248,Zimmerman-Malone,EdTech,2025-11-19,Djibouti,5,active
+249,Fernandez Ltd,EdTech,2024-12-16,Austria,100,inactive
+250,Lynch Inc,E-commerce,2026-02-27,Guam,10,inactive
+251,George-Chang,EdTech,2024-09-05,Uruguay,50,inactive
+252,Gentry PLC,EdTech,2024-10-30,Turks and Caicos Islands,5,active
+253,Jensen-Reid,Fintech,2026-01-03,Sierra Leone,500,inactive
+254,Franklin-Brown,Healthtech,2024-03-12,Slovakia (Slovak Republic),500,inactive
+255,Curry Inc,Healthtech,2026-02-11,Slovenia,250,active
+256,"Burch, Smith and Archer",SaaS,2026-01-07,Svalbard & Jan Mayen Islands,5,active
+257,Rhodes-Davis,Healthtech,2026-01-08,Anguilla,20,active
+258,"Bernard, Orr and Compton",EdTech,2024-03-16,El Salvador,5,active
+259,Lucas Ltd,SaaS,2024-05-08,United Kingdom,500,active
+260,Carroll Inc,SaaS,2025-06-07,Russian Federation,500,active
+261,Smith-Pierce,SaaS,2025-12-17,Yemen,500,active
+262,Madden Inc,EdTech,2025-10-29,Malta,250,inactive
+263,Collier-Graves,SaaS,2024-12-21,Lao People's Democratic Republic,100,active
+264,"Lee, Johnson and Coleman",SaaS,2025-08-28,Christmas Island,50,active
+265,Mcgee-Tucker,Healthtech,2026-01-02,Grenada,100,inactive
+266,"Ayala, Gregory and Delacruz",Fintech,2024-04-17,Albania,20,active
+267,"Jones, Johnson and Fisher",EdTech,2025-11-19,Mozambique,250,inactive
+268,Joyce PLC,Fintech,2025-09-29,Vietnam,5,active
+269,"Gentry, Jones and Shah",Healthtech,2025-04-21,Libyan Arab Jamahiriya,50,active
+270,Blair-Oliver,E-commerce,2024-08-27,Mexico,10,active
+271,Wagner-Collins,Fintech,2025-11-02,Angola,20,active
+272,"Franco, Spencer and Dudley",SaaS,2025-06-19,Guernsey,500,active
+273,"Adkins, Rodgers and Torres",Healthtech,2024-04-22,Iran,500,active
+274,"Bennett, Duncan and Reed",SaaS,2025-08-11,Maldives,50,inactive
+275,"Woodard, Wiggins and Conley",SaaS,2025-10-21,Macao,500,active
+276,Wright Group,SaaS,2024-05-13,Morocco,100,active
+277,Smith-Newton,EdTech,2024-10-27,Burkina Faso,250,active
+278,Reed Inc,Fintech,2024-09-18,Kyrgyz Republic,5,inactive
+279,Hodges PLC,E-commerce,2024-10-29,Greece,250,inactive
+280,Lewis and Sons,Fintech,2024-05-01,Canada,10,inactive
+281,"Young, Austin and Morris",Healthtech,2025-09-10,Liechtenstein,5,active
+282,Buchanan Ltd,SaaS,2026-02-23,Sierra Leone,250,active
+283,"Thomas, Houston and Lucas",EdTech,2025-01-29,Tunisia,10,active
+284,Fuller Ltd,SaaS,2026-03-02,Eritrea,5,inactive
+285,"Baldwin, Mitchell and Morales",Healthtech,2026-02-16,Norfolk Island,20,inactive
+286,Roberts PLC,Healthtech,2025-09-10,Ghana,20,active
+287,"Ruiz, Rivera and Patton",Healthtech,2026-01-03,Nauru,500,active
+288,Middleton Ltd,SaaS,2024-08-30,Timor-Leste,10,active
+289,Cantu-Roberts,EdTech,2024-04-06,Colombia,100,inactive
+290,Thomas Group,Healthtech,2024-10-02,Sudan,500,active
+291,Allen-Lowery,E-commerce,2025-10-24,Tuvalu,100,inactive
+292,Cook-Howell,EdTech,2025-09-23,Guadeloupe,250,inactive
+293,Parker Inc,SaaS,2025-11-21,Korea,50,active
+294,Mitchell-Mcpherson,Healthtech,2024-04-10,France,50,inactive
+295,Owens Inc,Fintech,2024-08-27,Suriname,100,active
+296,Cannon LLC,E-commerce,2024-06-01,Serbia,20,inactive
+297,"Chambers, Gonzalez and Jones",EdTech,2025-11-16,Saint Lucia,500,active
+298,Daniels-Taylor,SaaS,2025-06-04,Italy,50,active
+299,Campos Group,Fintech,2025-12-12,United States of America,100,active
+300,Smith Inc,Healthtech,2026-01-28,Saint Pierre and Miquelon,20,active
+301,"Gonzalez, Hall and Jones",Fintech,2025-03-09,Italy,50,active
+302,"Cuevas, Davis and Patterson",SaaS,2025-02-15,Nicaragua,10,inactive
+303,Carter LLC,E-commerce,2024-05-08,Tanzania,20,active
+304,"Thomas, Williams and Jackson",SaaS,2024-08-16,Ireland,10,active
+305,"Burgess, Bennett and Greer",EdTech,2024-03-09,Palau,5,active
+306,"Matthews, Henderson and Peters",E-commerce,2024-05-14,Lao People's Democratic Republic,50,active
+307,Lucas-Horton,SaaS,2024-06-18,Papua New Guinea,250,inactive
+308,Reeves PLC,EdTech,2025-10-13,Cambodia,50,active
+309,"Wallace, Gamble and Thompson",Healthtech,2025-02-24,Sri Lanka,100,active
+310,Contreras-Armstrong,SaaS,2025-01-10,Philippines,500,active
+311,Rogers-Peters,Fintech,2025-09-23,French Southern Territories,10,active
+312,Smith-Maddox,SaaS,2025-04-08,Uruguay,5,active
+313,"Miller, Long and Martin",Healthtech,2024-07-22,Chad,5,active
+314,"Lucas, Baldwin and Nguyen",EdTech,2024-11-25,Sweden,100,active
+315,Smith Ltd,E-commerce,2025-11-24,United States of America,50,active
+316,Hernandez Group,E-commerce,2025-06-13,Norway,20,active
+317,"Bennett, Mercado and Lopez",E-commerce,2024-08-17,United States Virgin Islands,10,active
+318,"Moore, Hart and Chambers",Fintech,2025-05-03,Western Sahara,5,inactive
+319,Stark-Phillips,EdTech,2024-07-28,Belgium,500,active
+320,"Johnson, Clark and Harris",Fintech,2024-10-20,Germany,500,active
+321,Shields Ltd,Fintech,2024-07-19,Zimbabwe,5,active
+322,Andrews Ltd,Fintech,2025-01-26,Grenada,20,active
+323,"Peterson, Johnson and Lewis",E-commerce,2026-01-02,Uruguay,20,active
+324,Hicks LLC,EdTech,2024-09-25,Georgia,10,active
+325,Martin and Sons,EdTech,2025-01-11,Thailand,500,active
+326,"Santos, Morrison and Hughes",E-commerce,2024-11-07,Zambia,5,inactive
+327,Lee-Jacobson,Fintech,2026-01-10,Australia,50,active
+328,Phillips LLC,Healthtech,2025-07-30,Gabon,500,active
+329,Dunlap-Hebert,SaaS,2025-07-19,Netherlands,500,inactive
+330,Vargas-Carter,E-commerce,2024-09-19,United Arab Emirates,20,active
+331,"Richardson, Rodriguez and Herman",Fintech,2025-04-10,Cameroon,20,active
+332,Turner PLC,SaaS,2025-09-27,Bouvet Island (Bouvetoya),5,inactive
+333,Morgan-Hernandez,E-commerce,2024-06-20,Greenland,50,active
+334,"Gonzalez, Kennedy and Watkins",E-commerce,2025-11-16,Ecuador,20,active
+335,Flores and Sons,EdTech,2025-01-23,Kuwait,5,inactive
+336,"Hamilton, Klein and Silva",E-commerce,2025-06-26,Brunei Darussalam,50,active
+337,Burns Group,SaaS,2024-07-16,Nauru,250,active
+338,Harris-Gonzalez,Fintech,2025-09-02,Madagascar,100,inactive
+339,Soto-Keller,Fintech,2025-08-27,Djibouti,250,inactive
+340,Cochran-Stephens,SaaS,2024-05-13,Palestinian Territory,5,inactive
+341,"Frank, Dominguez and Cunningham",E-commerce,2024-05-28,Guinea,100,active
+342,Short-Chapman,SaaS,2024-10-09,Palestinian Territory,250,active
+343,"Mcclure, Phillips and Dawson",Healthtech,2025-02-08,Kiribati,10,active
+344,Davis PLC,E-commerce,2026-01-08,Guatemala,250,active
+345,Peterson-Ward,E-commerce,2024-11-12,Denmark,20,active
+346,Gibson-Robbins,SaaS,2026-01-02,Zambia,100,active
+347,Johnson-Brown,Healthtech,2025-06-06,South Africa,500,active
+348,Brown-Montgomery,EdTech,2025-09-27,Hungary,5,active
+349,Diaz-Smith,EdTech,2024-04-30,Panama,50,inactive
+350,Martin-Johnson,E-commerce,2024-08-13,Czech Republic,50,active
+351,Taylor LLC,SaaS,2025-01-12,Cayman Islands,250,inactive
+352,"Lyons, White and Stephens",SaaS,2025-04-03,Brunei Darussalam,250,active
+353,"Thomas, Fisher and Walker",EdTech,2025-07-10,Belize,50,active
+354,Perry-Hunt,Healthtech,2024-08-11,Bulgaria,20,active
+355,Ingram-Edwards,E-commerce,2025-07-11,Mozambique,250,active
+356,Long-Powers,E-commerce,2025-05-17,Belgium,5,active
+357,Coffey-White,Fintech,2024-03-25,Tokelau,20,inactive
+358,"Wade, Oliver and Hartman",Fintech,2024-07-15,Andorra,20,active
+359,"White, Cobb and Jordan",E-commerce,2024-09-04,Anguilla,50,active
+360,Johnston Ltd,E-commerce,2024-04-24,Georgia,50,active
+361,Pena-Martinez,EdTech,2025-01-26,Mauritius,250,active
+362,Santos-Page,SaaS,2026-01-11,Lesotho,250,active
+363,"Perez, Flores and Lee",SaaS,2026-01-11,Panama,20,inactive
+364,Fritz Inc,Fintech,2024-11-29,Cayman Islands,5,active
+365,Shaw-Miller,SaaS,2024-05-17,Kyrgyz Republic,10,inactive
+366,Gay Group,EdTech,2025-06-29,Portugal,50,inactive
+367,"Mills, Williams and Perkins",SaaS,2026-01-23,Luxembourg,5,active
+368,Lawrence Ltd,Healthtech,2025-10-28,New Zealand,10,active
+369,"Wong, Brown and Cummings",Fintech,2024-05-20,Armenia,100,active
+370,"Faulkner, Nguyen and Terrell",SaaS,2025-07-05,Afghanistan,50,inactive
+371,Bird and Sons,EdTech,2026-03-01,Christmas Island,250,inactive
+372,Whitaker Group,EdTech,2024-04-27,Paraguay,10,active
+373,Novak LLC,Healthtech,2024-04-25,Slovenia,50,active
+374,"Gilbert, Grant and Williams",EdTech,2024-08-22,United States Virgin Islands,10,active
+375,Walton PLC,Fintech,2024-08-27,Czech Republic,500,active
+376,"Watson, Estrada and Palmer",E-commerce,2026-02-04,French Guiana,10,active
+377,"Moore, Lynch and Williams",E-commerce,2024-07-21,Montserrat,10,inactive
+378,"Calhoun, Miles and Johnson",Fintech,2024-04-19,Saint Kitts and Nevis,10,inactive
+379,"Schultz, Werner and Stevens",SaaS,2025-06-30,Saint Helena,250,active
+380,Fleming and Sons,Healthtech,2025-10-13,Taiwan,50,active
+381,Marshall-Perez,EdTech,2024-03-20,Tonga,250,inactive
+382,Ruiz-Munoz,Fintech,2025-06-21,Timor-Leste,100,inactive
+383,Reyes PLC,SaaS,2025-03-24,Pitcairn Islands,100,active
+384,Cross-Ray,Healthtech,2026-02-09,Bhutan,5,active
+385,Campbell LLC,SaaS,2024-05-22,Holy See (Vatican City State),50,inactive
+386,"Nelson, Hernandez and Ruiz",E-commerce,2024-07-26,Sierra Leone,500,inactive
+387,Dean-Cohen,SaaS,2025-07-26,Bouvet Island (Bouvetoya),100,active
+388,Phillips-Meyer,E-commerce,2024-08-26,Tokelau,500,active
+389,Hodges-Gordon,E-commerce,2024-11-20,Peru,5,active
+390,Barrett-Diaz,SaaS,2024-10-07,Jamaica,50,active
+391,Baker-Gonzalez,Healthtech,2024-05-24,Vanuatu,50,active
+392,Graham Inc,E-commerce,2025-09-18,Namibia,500,inactive
+393,Rivera-Brown,EdTech,2024-08-29,Austria,50,inactive
+394,"Gamble, Smith and Martin",Healthtech,2026-02-06,Saint Vincent and the Grenadines,500,inactive
+395,"Green, Love and Carney",SaaS,2025-11-25,British Indian Ocean Territory (Chagos Archipelago),250,active
+396,Cabrera PLC,E-commerce,2025-01-24,Turkey,10,active
+397,Goodwin-Smith,Healthtech,2024-11-25,Saudi Arabia,500,active
+398,Farmer and Sons,Fintech,2025-04-30,Mongolia,50,active
+399,"Ray, Garza and King",Healthtech,2025-04-28,Tajikistan,5,active
+400,Hines-Miller,EdTech,2024-08-04,Northern Mariana Islands,5,active
+401,West-Ingram,E-commerce,2024-05-18,Croatia,20,inactive
+402,Dominguez Inc,E-commerce,2025-03-13,Mali,10,inactive
+403,Martin PLC,E-commerce,2026-02-14,Vanuatu,100,active
+404,"Thompson, Mendoza and Mitchell",E-commerce,2024-09-25,Kazakhstan,10,active
+405,"Schneider, Leon and Morgan",Fintech,2026-03-02,Costa Rica,10,inactive
+406,Copeland and Sons,Healthtech,2024-09-06,Azerbaijan,5,active
+407,"Green, Smith and Gregory",SaaS,2024-06-06,Cayman Islands,500,active
+408,Carson Ltd,Fintech,2025-12-30,Uruguay,250,active
+409,Wilson Inc,EdTech,2025-12-07,Benin,5,active
+410,Singh and Sons,SaaS,2025-10-24,Uganda,5,active
+411,Rivas-Soto,Healthtech,2024-04-14,British Virgin Islands,100,active
+412,Bailey-Russell,SaaS,2024-03-10,United States Virgin Islands,5,inactive
+413,"Brown, Stafford and Ramirez",Healthtech,2025-05-28,Northern Mariana Islands,50,inactive
+414,Hunter Group,E-commerce,2025-04-15,Czech Republic,50,active
+415,"Watkins, Thompson and Stephens",E-commerce,2025-07-04,Moldova,10,inactive
+416,White-Hicks,EdTech,2024-10-28,Norfolk Island,10,inactive
+417,"Lopez, Byrd and Sims",Healthtech,2025-08-08,Croatia,250,active
+418,Moses-Prince,EdTech,2025-12-29,Haiti,500,active
+419,Ward-Berg,Fintech,2025-07-19,Wallis and Futuna,20,active
+420,Hanson Ltd,Healthtech,2024-12-06,Bahrain,500,inactive
+421,Gutierrez Group,EdTech,2024-06-21,Cyprus,10,inactive
+422,"Sanchez, Andrews and Steele",SaaS,2024-04-06,Ethiopia,250,inactive
+423,Perez-Brown,Healthtech,2024-08-18,Bulgaria,500,active
+424,"Jones, Hoffman and Watts",Fintech,2024-10-09,Malawi,100,active
+425,Robbins Inc,Fintech,2025-04-07,Ukraine,10,inactive
+426,Wilcox-Evans,Fintech,2025-11-27,Falkland Islands (Malvinas),250,active
+427,Campbell-Steele,EdTech,2025-04-10,Japan,20,active
+428,Barrett Group,Fintech,2025-03-28,Faroe Islands,50,active
+429,Case PLC,EdTech,2024-04-07,Russian Federation,10,active
+430,"Jackson, Hill and Smith",E-commerce,2025-11-27,Cayman Islands,10,active
+431,"Stewart, Brennan and Holland",Fintech,2025-12-19,Latvia,500,active
+432,Watkins-Wilson,Healthtech,2026-02-01,Azerbaijan,5,inactive
+433,"Mcgee, Harris and Terrell",Healthtech,2025-09-27,Tokelau,500,active
+434,Vaughn Group,Healthtech,2025-11-05,Libyan Arab Jamahiriya,5,inactive
+435,Rodriguez-Bass,EdTech,2024-06-03,United Arab Emirates,10,active
+436,Cole-Munoz,Healthtech,2025-02-19,Montserrat,5,active
+437,"Johnson, Davis and Huff",Healthtech,2025-08-01,Azerbaijan,250,inactive
+438,Fitzgerald-Lopez,E-commerce,2025-02-21,Nicaragua,250,active
+439,Jackson-Barnes,Healthtech,2024-04-01,Belize,10,active
+440,"Joseph, Long and Sexton",Fintech,2026-01-21,Malaysia,50,active
+441,"Sherman, Briggs and Stuart",Healthtech,2024-09-13,Micronesia,50,active
+442,"Johnson, Saunders and Smith",E-commerce,2025-07-01,Saint Vincent and the Grenadines,10,active
+443,Brown Inc,E-commerce,2025-04-17,Peru,500,active
+444,"Nielsen, Herring and Hunt",E-commerce,2025-10-27,Saint Martin,5,active
+445,"Martin, Aguirre and Harris",EdTech,2025-07-13,Northern Mariana Islands,20,active
+446,Hernandez-Johnson,Healthtech,2024-08-01,French Polynesia,100,active
+447,Gutierrez and Sons,E-commerce,2024-09-27,Albania,100,active
+448,Williamson Inc,Healthtech,2025-02-02,Equatorial Guinea,250,inactive
+449,Ortega Group,E-commerce,2025-01-21,Central African Republic,500,active
+450,"Medina, Browning and Smith",Healthtech,2024-08-23,Tajikistan,250,inactive
+451,Olson-Browning,Fintech,2025-06-25,Guadeloupe,5,active
+452,Mcconnell-Johnson,SaaS,2024-05-23,Libyan Arab Jamahiriya,100,active
+453,"Smith, Dawson and Pollard",EdTech,2025-01-04,New Caledonia,20,inactive
+454,Cooper-Allen,EdTech,2025-11-04,China,250,active
+455,"Smith, Day and Conway",Healthtech,2024-12-28,Germany,50,active
+456,Gutierrez PLC,Fintech,2024-10-02,Saint Lucia,5,inactive
+457,Lopez PLC,E-commerce,2025-01-02,Switzerland,50,active
+458,Garcia-Roberts,EdTech,2025-09-25,Kazakhstan,100,inactive
+459,Morris PLC,Healthtech,2024-12-05,Djibouti,5,active
+460,Johnson-Thompson,E-commerce,2025-07-20,Burundi,5,active
+461,Holmes Group,EdTech,2026-02-02,Bahamas,100,active
+462,White-Mcdonald,Healthtech,2024-11-19,Andorra,500,active
+463,Leonard-Anderson,Healthtech,2024-05-19,Tonga,5,active
+464,"Johnson, Obrien and Brown",E-commerce,2024-05-11,Oman,20,active
+465,Park-Howard,EdTech,2024-12-20,Puerto Rico,100,inactive
+466,Bennett PLC,SaaS,2024-11-02,Faroe Islands,10,active
+467,Walton-Schmidt,E-commerce,2026-01-14,Niger,10,active
+468,Yates LLC,Fintech,2024-07-15,Hong Kong,10,active
+469,"Ruiz, Wiley and Johnson",Fintech,2024-12-28,Lesotho,10,active
+470,Singh-Smith,E-commerce,2025-01-17,Anguilla,10,active
+471,Smith Inc,EdTech,2025-09-20,Greenland,500,active
+472,"Smith, Gonzalez and Lowery",EdTech,2025-05-02,Guam,10,inactive
+473,Klein-Manning,Healthtech,2025-04-29,Pitcairn Islands,5,active
+474,Stephens PLC,EdTech,2025-04-30,French Polynesia,250,active
+475,Rowe and Sons,EdTech,2025-10-29,China,5,active
+476,Brown-Fuentes,EdTech,2024-08-05,Grenada,50,inactive
+477,Mendoza Inc,SaaS,2024-04-08,Saudi Arabia,20,active
+478,Peterson and Sons,SaaS,2026-01-14,Iceland,5,active
+479,Brandt and Sons,SaaS,2025-10-20,Albania,20,inactive
+480,Watson Group,EdTech,2025-04-03,El Salvador,5,inactive
+481,"Brooks, Buchanan and Brown",SaaS,2025-02-07,Saint Pierre and Miquelon,500,active
+482,"Soto, Schmidt and Hunter",SaaS,2024-05-19,Lesotho,50,active
+483,"Horn, Andrews and Phillips",EdTech,2025-12-16,Bahrain,250,inactive
+484,"Phillips, Morse and Neal",EdTech,2025-06-30,Paraguay,10,active
+485,Gonzales PLC,E-commerce,2025-11-20,Morocco,20,inactive
+486,Roberts-Hall,SaaS,2025-10-22,Benin,250,active
+487,Mitchell-Smith,Healthtech,2026-01-08,Benin,100,active
+488,Lee-Robbins,E-commerce,2025-05-20,Barbados,10,inactive
+489,Cox PLC,SaaS,2024-09-04,Canada,10,inactive
+490,"Steele, Vazquez and Grimes",SaaS,2025-04-01,North Macedonia,500,inactive
+491,"Washington, Richardson and Franco",SaaS,2025-05-13,Kiribati,10,active
+492,Quinn Ltd,Healthtech,2025-02-14,Bahrain,50,active
+493,"Rosario, Reilly and Edwards",E-commerce,2024-03-22,Yemen,5,active
+494,"Scott, Daniel and James",EdTech,2026-02-05,Jordan,5,active
+495,Green Inc,EdTech,2025-04-26,Cote d'Ivoire,50,active
+496,Henson-Young,Healthtech,2024-08-30,India,10,active
+497,Norris-Watson,SaaS,2025-03-03,Marshall Islands,20,active
+498,"Brown, Martin and Hoffman",Healthtech,2025-08-05,Bermuda,5,active
+499,Anderson-Cortez,EdTech,2025-02-15,Jamaica,5,inactive
+500,Alexander PLC,Healthtech,2025-09-01,Australia,20,inactive
